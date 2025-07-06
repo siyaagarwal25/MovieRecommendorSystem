@@ -1,6 +1,6 @@
 #  Movie Recommender System
 
-A machine learning–based movie recommender system that suggests movies based on similarity in content and popularity trends. Built using Python and interactive Jupyter Notebooks, this project helps users discover new movies tailored to their preferences.
+A machine learning–based movie recommender system that suggests movies based on similarity in content and popularity trends. This project helps users discover new movies tailored to their preferences.
 
 ---
 
