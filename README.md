@@ -56,21 +56,23 @@ The project is built purely in Python and works in a local Jupyter Notebook envi
 git clone https://github.com/your-username/MovieRecommendorSystem.git
 cd MovieRecommendorSystem
 
-##  Backend Setup
+## 🧠 Backend Setup
 
-### Navigate to Project Directory
+### 📁 Navigate to Project Directory
 
 ```bash
 cd MovieRecommendorSystem
-
 # Create a virtual environment
 python -m venv venv
 
 # Activate the environment
-source venv/bin/activate       # On Windows: venv\Scripts\activate
+# On macOS/Linux:
+source venv/bin/activate
 
-# Start Backend
+# On Windows:
+venv\Scripts\activate
 streamlit run app.py
+
 
 
    
