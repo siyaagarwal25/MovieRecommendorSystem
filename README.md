@@ -1,60 +1,49 @@
-## Introduction
-With the ever-growing collection of movies, viewers often find it challenging to decide what to watch next. This project presents a Movie Recommender System that intelligently filters through a dataset of movies to suggest titles that match a user's taste. It leverages both content-based filtering and popularity-based recommendations to deliver relevant suggestions.
+#  Movie Recommender System
 
-## Project Overview
-1)The recommender system is designed to provide two types of suggestions:
+A machine learning–based movie recommender system that suggests movies based on similarity in content and popularity trends. Built using Python and interactive Jupyter Notebooks, this project helps users discover new movies tailored to their preferences.
 
-2)Content-Based Filtering: Recommends movies similar in genre, keywords, cast, and other metadata.
+---
 
-3)Popularity-Based Recommendation: Shows top trending or most liked movies based on vote count and average rating.
+##  Overview
 
-4)This system is built and demonstrated in a Jupyter Notebook, making it easy to understand and extend further.
+With thousands of movies released every year, choosing what to watch next can be overwhelming. This recommender system solves that problem by analyzing metadata (like genres, cast, and keywords) and suggesting movies similar to a given title.
 
-## Tools & Technologies Used
-Python 3 – Core programming language.
+This system supports:
+- **Content-based filtering** – recommends similar movies based on metadata
+- **Popularity-based filtering** – recommends trending/highly rated movies
 
-Pandas – For data preprocessing and manipulation.
+The project is built purely in Python and works in a local Jupyter Notebook environment.
 
-NumPy – For numerical operations.
+---
 
-Scikit-learn – Used for vectorization (CountVectorizer) and similarity computation (cosine_similarity).
+##  Features
 
-NLTK – For natural language processing (e.g., stemming keywords).
+-  **Movie Similarity Matching** using genres, keywords, cast, and crew
+-  **Cosine Similarity** for content-based filtering
+-  **Popularity Filtering** using vote counts and ratings
+-  **Text Processing** with stemming and feature extraction
+-  **Poster Integration** (optional via TMDb API)
+-  Fully interactive notebook setup
 
-TMDb API (optional) – To fetch movie posters dynamically using the TMDb (The Movie Database) API.
+---
 
-Jupyter Notebook – Interactive development and testing environment.
+## 🛠 Technology Stack
 
-## Project Flow
-Data Collection & Loading
+| Category       | Tools Used                                 |
+|----------------|---------------------------------------------|
+| Language       | Python 3                                    |
+| Data Handling  | Pandas, NumPy                               |
+| ML / NLP       | Scikit-learn, CountVectorizer, NLTK         |
+| Visualization  | Jupyter Notebook (for interactive testing)  |
+| API (optional) | TMDb API (for poster images)                |
 
-Movie data is loaded from pre-downloaded CSV files (e.g., movies.csv, credits.csv, etc.).
+---
 
-Data Preprocessing
+##  Installation
 
-Merging datasets (e.g., movies with credits).
+### Backend (Jupyter + Python Environment)
 
-Cleaning data: removing missing values, duplicates.
-
-Extracting and transforming features such as genres, cast, keywords, and overview.
-
-Feature Engineering
-
-Combining selected features into a single "tags" column.
-
-Stemming and text normalization using NLTK.
-
-Vectorizing text data using CountVectorizer.
-
-Similarity Computation
-
-Using cosine similarity on the vectorized feature matrix to compute movie-to-movie similarity scores.
-
-Recommendation Function
-
-A custom function that takes a movie name and returns top 5 most similar movies.
-
-Poster Integration (Optional)
-
-Fetches poster images for the recommended movies using TMDb API (if API key is provided).
-
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/siyaagarwal25/MovieRecommendorSystem.git
+   cd MovieRecommendorSystem
