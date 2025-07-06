@@ -27,7 +27,7 @@ The project is built purely in Python and works in a local Jupyter Notebook envi
 
 ---
 
-## 🛠 Technology Stack
+##  Technology Stack
 
 | Category       | Tools Used                                 |
 |----------------|---------------------------------------------|
@@ -39,11 +39,28 @@ The project is built purely in Python and works in a local Jupyter Notebook envi
 
 ---
 
-##  Installation
+## Installation
 
-### Backend (Jupyter + Python Environment)
+###  Prerequisites
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/siyaagarwal25/MovieRecommendorSystem.git
-   cd MovieRecommendorSystem
+- Python (v3.7 or higher)
+- pip (Python package manager)
+- [TMDb API Key](https://developer.themoviedb.org/)
+
+---
+
+###  Frontend Setup (Streamlit App)
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/MovieRecommendorSystem.git
+cd MovieRecommendorSystem
+# Create and activate a virtual environment
+python -m venv venv
+source venv/bin/activate      # On Windows: venv\Scripts\activate
+# Install required dependencies
+pip install -r requirements.txt
+# Run the Streamlit app
+streamlit run app.py
+
+
