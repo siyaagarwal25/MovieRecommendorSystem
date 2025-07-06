@@ -80,10 +80,10 @@ streamlit run app.py
 ##  Screenshots
 
 ###  Home Page of Recommender
-![Input](assets/input.png)
+![Input](input.png)
 
 ###  Sample Output
-![Output](assets/output.png)
+![Output](output.png)
 
 
 
