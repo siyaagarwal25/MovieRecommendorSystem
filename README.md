@@ -49,12 +49,13 @@ The project is built purely in Python and works in a local Jupyter Notebook envi
 
 ---
 
-###  Frontend Setup (Streamlit App)
+###  Frontend Setup 
 
 ```bash
 # Clone the repository
 git clone https://github.com/your-username/MovieRecommendorSystem.git
-cd MovieRecommendorSystem```
+cd MovieRecommendorSystem
+```
 
 ---
 
@@ -73,7 +74,8 @@ source venv/bin/activate
 
 # On Windows:
 venv\Scripts\activate
-streamlit run app.py```
+streamlit run app.py
+```
 
 
 
