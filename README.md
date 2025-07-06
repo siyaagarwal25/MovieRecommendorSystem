@@ -1,4 +1,5 @@
-![INPUT](https://github.com/user-attachments/assets/b2a76d97-9290-47ef-ae54-b2b68e252bd2)#  Movie Recommender System
+![INPUT](https://github.com/user-attachments/assets/b2a76d97-9290-47ef-ae54-b2b68e252bd2)
+#  Movie Recommender System
 
 A machine learning–based movie recommender system that suggests movies based on similarity in content and popularity trends. This project helps users discover new movies tailored to their preferences.
 
@@ -80,10 +81,10 @@ streamlit run app.py
 ##  Screenshots
 
 ###  Home Page of Recommender
-![Input](input.png)
+![INPUT](https://github.com/user-attachments/assets/b2a76d97-9290-47ef-ae54-b2b68e252bd2)
 
 ###  Sample Output
-![Output](output.png)
+![Output](assets/output.png)
 
 
 
