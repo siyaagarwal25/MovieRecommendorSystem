@@ -80,12 +80,10 @@ streamlit run app.py
 ##  Screenshots
 
 ###  Home Page of Recommender
-
-![Home Page](C:\Users\SIYA AGARWAL\OneDrive\Pictures\Screenshots/INPUT)
+![Home Page](assets/input.png)
 
 ###  Sample Output
-
-![Recommendations](C:\Users\SIYA AGARWAL\OneDrive\Pictures\Screenshots/OUTPUT)
+![Output](assets/output.png)
 
 
 
