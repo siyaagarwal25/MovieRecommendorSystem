@@ -84,7 +84,7 @@ streamlit run app.py
 ![INPUT](https://github.com/user-attachments/assets/b2a76d97-9290-47ef-ae54-b2b68e252bd2)
 
 ###  Sample Output
-![Output](assets/output.png)
+![Output](https://github.com/user-attachments/assets/a3b03e50-c224-49ff-ba88-c39d178bee08)
 
 
 
