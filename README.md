@@ -1,4 +1,4 @@
-#  Movie Recommender System
+![INPUT](https://github.com/user-attachments/assets/b2a76d97-9290-47ef-ae54-b2b68e252bd2)#  Movie Recommender System
 
 A machine learning–based movie recommender system that suggests movies based on similarity in content and popularity trends. This project helps users discover new movies tailored to their preferences.
 
@@ -63,7 +63,7 @@ cd MovieRecommendorSystem
 
 ```# Navigate to Project Directory
 
-bash
+
 cd MovieRecommendorSystem
 # Create a virtual environment
 python -m venv venv
@@ -76,6 +76,17 @@ source venv/bin/activate
 venv\Scripts\activate
 streamlit run app.py
 ```
+---
+##  Screenshots
+
+###  Home Page of Recommender
+
+![Home Page](C:\Users\SIYA AGARWAL\OneDrive\Pictures\Screenshots/INPUT)
+
+###  Sample Output
+
+![Recommendations](C:\Users\SIYA AGARWAL\OneDrive\Pictures\Screenshots/OUTPUT)
+
 
 
 
