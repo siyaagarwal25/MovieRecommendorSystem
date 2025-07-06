@@ -56,9 +56,9 @@ The project is built purely in Python and works in a local Jupyter Notebook envi
 git clone https://github.com/your-username/MovieRecommendorSystem.git
 cd MovieRecommendorSystem
 
-## 🧠 Backend Setup
+### Backend Setup
 
-### 📁 Navigate to Project Directory
+###  Navigate to Project Directory
 
 ```bash
 cd MovieRecommendorSystem
